@@ -3,7 +3,10 @@ Java Blue Legion WebSockets Server
 
 This repository uses the libaries from https://github.com/TooTallNate/Java-WebSocket to implement a GameServer class for my team project game, Blue Legion.
 
-Blue Legion is an online, turn based PvP multiplayer game which involves players selecting cards per turn in order to beat the opponent. 
+## General info
+Blue Legion is a turn based online multiplayer card game incorporating a variety of animations and other features. This is the the finished version. Within this repository you will find the source code for the client aswell as an executable jar file to run.
+
+See downloads for current versions as jar files: https://github.com/Xakep1101/BlueLegion-Client/tree/main/downloads
 
 The underlying classes are implemented `java.nio`, which allows for a
 non-blocking event-driven model (similar to the
