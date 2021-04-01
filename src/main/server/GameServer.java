@@ -202,7 +202,7 @@ public class GameServer extends WebSocketServer {
 				    			playerTurn = 1;
 				    			if(message.equals("ATTACK")) {
 
-				    				int hReduce = r.nextInt(70); //damage dealt for random attack
+				    				int hReduce = r.nextInt(60); //damage dealt for random attack
 				    				int netHealth=p2h-hReduce;
 
 				    				p1Health = p1h;
@@ -266,7 +266,7 @@ public class GameServer extends WebSocketServer {
 				    		} else if(playerTurn==1) {
 				    			playerTurn=0;
 				    			if(message.equals("ATTACK")) {
-				    				int hReduce = r.nextInt(70); //damage dealt for random attack
+				    				int hReduce = r.nextInt(60); //damage dealt for random attack
 				    				int netHealth=p1h-hReduce;
 
 				    				p1Health=netHealth;
